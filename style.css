@@ -8,3 +8,12 @@
 select{
     margin: 10 0;
 }
+
+input:checked + label{
+    background-color: #dde8f8;
+}
+
+.question_text{
+    background-color: rgba(237, 222, 238, 0.768);
+    font-weight: bold;
+}
