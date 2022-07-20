@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.q{
+    flex-direction: column;
+}
+select{
+    margin: 10 0;
+}
