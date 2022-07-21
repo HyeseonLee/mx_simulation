@@ -510,14 +510,14 @@ btn.addEventListener("click", (e)=>{
         case_obj.c7 += 7;
         case_obj.c13 += 7;
         case_obj.c6 += 4;
-
+        case_obj.c10 += 5;
     }
     else if(q13a2.checked==true){
         console.log('q13a2체크됨');
         // 가중치 계산
         case_obj.c4 += 6;
         case_obj.c2 += 5;
-        case_obj.c10 += 4;
+        case_obj.c10 += 1;
     }
     else if(q13a3.checked==true){
         console.log('q13a3체크됨');
@@ -644,6 +644,7 @@ btn.addEventListener("click", (e)=>{
 c1.addEventListener('click',(e)=>{
     c1.style.backgroundColor = '#92B9F5';
     q1a2.checked=true;
+    q1a2.style.backgroundColor = "#ffeefe";
     q2a2.checked=true;
     q3a3.checked=true;
     q5a1.checked=true;
