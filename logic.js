@@ -175,8 +175,8 @@ btn.addEventListener("click", (e)=>{
     else if(q2a2.checked==true){
         console.log('q2a2체크됨');
         // 가중치 계산
-        case_obj.c1 += 7;
-        case_obj.c9 += 6;
+        case_obj.c1 += 10;
+        case_obj.c9 += 8;
         case_obj.c12 += 2;
         case_obj.c13 += 1;
     }
@@ -195,10 +195,10 @@ btn.addEventListener("click", (e)=>{
     else if(q3a2.checked==true){
         console.log('q3a2체크됨');
         // 가중치 계산
-        case_obj.c10 += 8;
+        case_obj.c10 += 6;
         case_obj.c12 += 7;
         case_obj.c4 += 5;
-        case_obj.c13 += 4;
+        case_obj.c13 += 5;
         case_obj.c8 += 3;
     }
     else if(q3a3.checked==true){
@@ -282,8 +282,8 @@ btn.addEventListener("click", (e)=>{
     else if(q6a3.checked==true){
         console.log('q6a3체크됨');
         // 가중치 계산
-        case_obj.c1 += 5;
-        case_obj.c3 += 4;
+        case_obj.c1 += 10;
+        case_obj.c3 += 8;
         case_obj.c8 += 3;
     }
     else{
@@ -326,7 +326,7 @@ btn.addEventListener("click", (e)=>{
     if(q8a1.checked==true){
         console.log('q8a1체크됨');
         // 가중치 계산
-        case_obj.c14 += 9;
+        case_obj.c14 += 4;
         case_obj.c10 += 8;
         case_obj.c5 += 8;
         case_obj.c7 += 7;
@@ -338,7 +338,7 @@ btn.addEventListener("click", (e)=>{
         // 가중치 계산
         case_obj.c7 += 8;
         case_obj.c6 += 8;
-        case_obj.c5 += 7;
+        case_obj.c5 += 2;
         case_obj.c14 += 7;
         case_obj.c4 += 6;
         case_obj.c2 += 6;
@@ -375,14 +375,14 @@ btn.addEventListener("click", (e)=>{
     if(q9a1.checked==true){
         console.log('q9a1체크됨');
         // 가중치 계산
-        case_obj.c10 += 8;
-        case_obj.c5 += 7;
-        case_obj.c11 += 6;
+        case_obj.c10 += 5;
+        case_obj.c5 += 5;
+        case_obj.c11 += 5;
         case_obj.c6 += 5;
         case_obj.c8 += 5
-        case_obj.c7 += 4;
-        case_obj.c4 += 2;
-        case_obj.c1 += 2;
+        case_obj.c7 += 5;
+        case_obj.c4 += 5;
+        case_obj.c1 += 5;
     }
     else if(q9a2.checked==true){
         console.log('q9a2체크됨');
@@ -542,6 +542,7 @@ btn.addEventListener("click", (e)=>{
         // 가중치 계산
         case_obj.c2 += 6;
         case_obj.c14 += 5;
+        case_obj.c12 += 4;
         case_obj.c1 += 3;
 
     }
@@ -611,9 +612,6 @@ btn.addEventListener("click", (e)=>{
     if(parseInt(max)>0){
         find.style.backgroundColor = '#ffcee9';
     }
-
-    let c1_label = document.querySelector('label[for="q1a1"]');
-    console.log(c1_label);
     
     c1.innerText = `나는야 칼퇴요정 ${case_obj.c1}`;
     c2.innerText = `야망을 품은 신입사원 ${case_obj.c2}`;
