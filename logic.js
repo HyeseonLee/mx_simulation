@@ -74,6 +74,7 @@ let q15a1 = document.getElementById("q15a1");
 let q15a2 = document.getElementById("q15a2");
 let q15a3 = document.getElementById("q15a3");
 
+
 const btn = document.getElementById("btn");
 
 // case eventListener
@@ -607,7 +608,28 @@ btn.addEventListener("click", (e)=>{
     let case_name = maxKey;
     let find = document.getElementById(case_name);
     console.log(find);
-    find.style.backgroundColor = '#ffcee9';
+    if(parseInt(max)>0){
+        find.style.backgroundColor = '#ffcee9';
+    }
+
+    let c1_label = document.querySelector('label[for="q1a1"]');
+    console.log(c1_label);
+    
+    c1.innerText = `나는야 칼퇴요정 ${case_obj.c1}`;
+    c2.innerText = `야망을 품은 신입사원 ${case_obj.c2}`;
+    c3.innerText = `든든한 가업 승계자 ${case_obj.c3}`;
+    c4.innerText = `꽃 피기 1초전 ${case_obj.c4}`;
+    c5.innerText = `가슴이 나를 이끈다 ${case_obj.c5}`;
+    c6.innerText = `다재다능 선배 ${case_obj.c6}`;
+    c7.innerText = `프로 n잡러 ${case_obj.c7}`;
+    c8.innerText = `네 속을 알 수 없어 ${case_obj.c8}`;
+    c9.innerText = `잘 먹고 잘 사는 베짱이 ${case_obj.c9}`;
+    c10.innerText = `흰 천과 바람만 있으면 ${case_obj.c10}`;
+    c11.innerText = `로스쿨에 입학한 전직 대기업 사원 ${case_obj.c11}`;
+    c12.innerText = `든든한 사무실 지킴이 ${case_obj.c12}`;
+    c13.innerText = `여유로운 뽀삐 언니 ${case_obj.c13}`;
+    c14.innerText = `끊임없이 굴러가는 굴렁쇠 ${case_obj.c14}`;
+
 })
 
 
@@ -797,6 +819,8 @@ c10.addEventListener('click',(e)=>{
     c10.style.backgroundColor = '#92B9F5';
 
     q1a1.checked=true;
+    q2a1.checked=true;
+
     q4a1.checked=true;
     q3a2.checked=true;
     q5a2.checked=true;
