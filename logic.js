@@ -459,7 +459,9 @@ btn.addEventListener("click", (e)=>{
     else if(q11a3.checked==true){
         console.log('q11a3체크됨');
         // 가중치 계산
+
         case_obj.c3 += 6;
+        case_obj.c1 += 7;
         case_obj.c9 += 3;
         case_obj.c13 += 3;
     }
@@ -467,7 +469,7 @@ btn.addEventListener("click", (e)=>{
         console.log('q11a4체크됨');
         // 가중치 계산
         case_obj.c8 += 4;
-        case_obj.c1 += 3;
+        case_obj.c1 += 7;
     }
     else{
         // alert('11번 질문 체크 안되었습니다.');
